@@ -460,7 +460,6 @@ img {
   align-items: baseline;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
 }
 
 .footer-logo {
@@ -903,6 +902,7 @@ img {
   .footer-wrapper-logo {
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 24px;
   }
 
   .footer-descr {
