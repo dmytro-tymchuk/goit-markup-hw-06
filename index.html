@@ -60,6 +60,74 @@
           </svg>
         </button>
       </div>
+      <div class="mob-menu">
+        <div>
+          <button type="button" class="mob-close-btn">
+            <svg class="mob-close-icon" height="8" width="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mob-menu-list">
+              <li class="mob-menu-item">
+                <a href="./index.html" class="mob-menu-link current">Studio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="" class="mob-menu-link">Portfolio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="" class="mob-menu-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <address class="mob-address">
+            <ul class="mob-address-list">
+              <li class="mob-address-item">
+                <a class="mob-address-link current" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-address-item">
+                <a class="mob-address-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-soc-list">
+            <li class="mob-soc-item">
+              <a class="mob-soc-link" href="">
+                <svg class="mob-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a class="mob-soc-link" href="">
+                <svg class="mob-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a class="mob-soc-link" href="">
+                <svg class="mob-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a class="mob-soc-link" href="">
+                <svg class="mob-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <section class="hero">
@@ -645,7 +713,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" height="8" width="8">
@@ -718,12 +786,16 @@
               class="modal-check visually-hidden"
               value="true"
             />
-            <label for="user-privacy" class="modal-check-text"
-              ><span class="modal-ckeckbox"
-                ><svg class="modal-checkbox-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-Vector"></use></svg></span
-              >I accept the terms and conditions of the&nbsp;
-              <a href="" class="modal-checkbox-link">Privacy Policy</a></label
+            <label for="user-privacy" class="modal-check-text">
+              <span class="modal-ckeckbox">
+                <svg class="modal-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              <div>
+                I accept the terms and conditions of the
+                <a href="" class="modal-checkbox-link">Privacy Policy</a>
+              </div></label
             >
           </div>
           <button type="submit" class="modal-btn">Send</button>
